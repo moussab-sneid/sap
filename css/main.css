@@ -1,0 +1,1254 @@
+/*# header */
+.header{
+
+  background-color: #ffff;
+    margin: 0;
+  padding: 10px 0 8px;
+}
+.header a{
+  display: inline;
+   text-align: center;
+      position: relative;
+      font-size: 23px;
+}
+.header .logo img{
+  background-repeat: no-repeat;
+  background-size: cover;
+        height: 90px;
+        width: 190px;
+        border-radius: 3px;
+      
+        position: relative;
+        display: inline;
+        
+     
+         
+
+}
+ .entete img{
+
+display: none;
+ }
+  @media (max-width: 1200px){
+.header a{
+  display: inline;
+   text-align: center;
+      position: relative;
+      font-size: 18px;
+    }
+      .header .logo img{
+  background-repeat: no-repeat;
+  background-size: cover;
+        height: 80px;
+        width: 140px;
+        border-radius: 3px;
+        margin: 0px;
+        position: relative;
+        display: inline;
+}
+  }
+ @media (max-width: 1039px){
+    
+
+  .header .logo img{
+  display: none;
+  }
+  .entete img{
+    width: 100px;
+    height: 80px; 
+    border:none;
+    padding-left: 0px;
+    border-radius: 10px;
+    background: #fff;
+    display: inline;
+
+  }
+
+
+ }
+
+@media (max-width: 992px){
+ 
+  .header .logo img{
+  display: none;
+  }
+  .entete img{
+    width: 70px;
+    height: 60px; 
+    border:none;
+    padding-left: 0px;
+    margin: 0px;
+    border-radius: 10px;
+    background: #fff;
+    display: inline;
+
+  }
+}
+ @media (max-width: 772px){
+ 
+  .header .logo img{
+  display: none;
+  }
+    .entete img{
+    width: 60px;
+    height: 50px;x
+    margin-left: 0;
+  }
+}
+/*# header */
+
+/*# accueil nos services */
+.servi {
+  margin: 0px;
+  padding: 10px;
+  border: 2px solid lightgrey;
+  background: grey; 
+
+}
+.servi img{
+  width: 160px;
+  height: 102px;
+  
+
+}
+.servi h6{
+margin-top: 15px;
+color: white;
+font-size: 13px;
+  font-family: sans-serif;
+
+
+}
+.servi a{
+  color: aqua;
+  margin-top: 14px;
+  padding-left: 10px;
+  margin-left: 10px;
+  display: inline;
+}
+.servi a:hover{
+color: aqua;
+
+  }
+
+  @media (max-width: 740px){
+    .servi {
+  margin: 0px;
+  padding-top: 10px;
+  text-align: center;
+    border: 2px solid lightgrey;
+  background: grey; 
+}
+
+  }
+
+
+/*# accueil */
+
+/*# ACCOMPAGNEMENT A L'INVESTISSEMENT */
+
+.acin {
+   margin-top: 90px;
+  background-image: url(../images/invest.jpg);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  height: 320px;
+  position: relative;
+   align-items: center;
+   z-index: 0;
+   display: grid;
+    padding: 1em 0;
+    margin-bottom: 40px;
+}
+
+.acin h2.title {
+  font-size: 38px;
+  font-weight: 700;
+  color: white;
+}
+
+.acin h2.title {
+  font-size: 38px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.acin::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #161B1D;
+  opacity: .7;
+}
+
+
+
+
+@media (max-width:991px) {
+  .acin {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width:640px) {
+  .acin h2.title {
+    font-size: 34px;
+  }
+
+  .acin {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width:600px) {
+  .acin h2.title {
+    font-size: 30px;
+  }
+}
+
+
+.atrt{
+  margin: 20px;
+  padding: 10px;
+  overflow: hidden;
+
+}
+.atrt p{
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.atrt img{
+
+  width: 600px;
+  height: 440px;
+
+}
+.rerap{
+  margin: 20px;
+  overflow: hidden;
+  padding: 12px;
+
+}
+.rerap img {
+  width: 580px;
+  height: 600px;
+}
+@media (max-width: 600px){
+  .desp {
+    margin-top: 30px;
+
+  }
+}
+
+.ate {
+margin: 30px;
+text-align: center;
+}
+
+.ate h5{
+  text-align: center;
+  margin: 13px;
+ text-decoration: underline;
+
+}
+
+/*# ACCOMPAGNEMENT A L'INVESTISSEMENT */
+  
+/*# gestion fonciere */
+.gs {
+   margin-top: 90px;
+  background-image: url(../images/gestion_fo.jpg);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  height: 300px;
+  position: relative;
+   align-items: center;
+   z-index: 0;
+   display: grid;
+    padding: 1em 0;
+    margin-bottom: 40px;
+}
+
+.gs h2.title {
+  font-size: 38px;
+  font-weight: 700;
+  color: white;
+}
+
+.gs h2.title {
+  font-size: 38px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.gs::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #161B1D;
+  opacity: .7;
+}
+
+
+
+
+@media (max-width:991px) {
+  .gs {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width:640px) {
+  .gs h2.title {
+    font-size: 34px;
+  }
+
+  .gs {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width:600px) {
+  .gs h2.title {
+    font-size: 30px;
+  }
+}
+.ges_f{
+  margin: 20px;
+
+}
+
+.gs_des{
+  text-align: center;
+  margin: 30px;
+  text-decoration: underline;
+}
+
+.gs_det{
+  font-family: sans-serif;
+  line-height: 10px;
+  padding: 0 80px;
+}
+.gs_im{
+  margin: 20px;
+  overflow: hidden;
+}
+.gs_im img{
+  width: 600px;
+  height: 370px;
+  padding: 10px;
+
+}
+@media (max-width: 500px){
+  .gs_det{
+  font-family: sans-serif;
+  line-height: 10px;
+  padding:0px;
+}
+}
+/*# gestion fonciere */
+
+/*# AMENAGEMENT STATION TOURISTIQUE */
+.amg {
+   margin-top: 90px;
+  background-image: url(../images/ast_3.jpg);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  height: 300px;
+  position: relative;
+   align-items: center;
+   z-index: 0;
+   display: grid;
+    padding: 1em 0;
+    margin-bottom: 40px;
+}
+
+.amg h2.title {
+  font-size: 38px;
+  font-weight: 700;
+  color: white;
+}
+
+.amg h2.title {
+  font-size: 38px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.amg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #161B1D;
+  opacity: .7;
+}
+
+
+
+
+@media (max-width:991px) {
+  .amg {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width:640px) {
+  .amg h2.title {
+    font-size: 34px;
+  }
+
+  .amg {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width:600px) {
+  .amg h2.title {
+    font-size: 30px;
+  }
+}
+
+.amg_des {
+  margin: 10px;
+  overflow: hidden;
+}
+
+
+/*# AMENAGEMENT STATION TOURISTIQUE */
+
+
+/*# Eapace recutement  */
+.espa{
+
+ margin-bottom: : 20px; 
+ background: #3F84B1; 
+ width: 100%;
+ height: 150px;
+overflow: hidden;
+ 
+}
+.espa .rec {
+  margin:25px 0px;
+  display: block; 
+
+}
+.espa .rec span{
+  font-size: 2.5em;
+  color: black;
+  margin: 0;
+   display: inline;
+
+}
+.espa .rec  h4 {
+  display: inline; 
+  padding-left: 10px;
+}
+.espa a {
+  color: white;
+}
+.espa a:hover{
+  color: white;
+}
+@media (max-width: 768px){
+  .espa {
+    margin-bottom: 20px; 
+ background: #3F84B1; 
+ width: 100%;
+ height: 200px;
+overflow: hidden; 
+} 
+
+.espa .rec {
+  margin:10px 0px;
+  display: block; 
+  text-align: center;
+}
+.espa .rec span{
+  font-size: 1.5em;
+  color: black;
+  margin: 0;
+   display: inline;
+
+}
+}
+@media (min-width: 1000px){
+  .espa {
+    margin-bottom: 20px; 
+ background: #3F84B1; 
+ width: 100%;
+ height: 100px;
+overflow: hidden; 
+} 
+.espa .rec {
+  margin:10px 0px;
+  display: block; 
+
+}
+.espa .rec span{
+  font-size: 2em;
+  color: black;
+  margin: 0;
+   display: inline;
+
+}
+.espa .rec  h4 {
+  display: block; 
+  padding-left: 10px;
+}
+}
+
+/*# accueil */
+
+/*# a propos nous */
+.mdr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.mdr h1{
+  text-align: center;
+  padding: 30px;
+  margin-top: 20px;
+  color: #3F84B1;
+
+
+}
+.mdr img{
+  background-repeat: no-repeat;
+    background-size: cover;
+    height: 267px;
+    width: 440px;
+    border: 0;
+    display: block; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+@media  (max-width: 476px){
+  .mdr img{
+    width: 100%;
+   margin: 0px;
+    height: 190px;
+  }
+  .w3l-about-breadcrumb{
+    width: 100%;
+    margin: 0px;
+
+
+  }
+  .w3l-about-breadcrumb .title{
+    text-align: center;
+    margin:0px;
+    font-size: 10px;
+  }
+}
+.mdr p{
+  padding-top: 50px; 
+  font-family: inherit;
+  font-size: 15px;
+  margin: 0px;
+}
+.prp : hover{
+  padding-top: 12px;
+  margin-top: 22px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+
+/*# a propos nous */
+
+/*# saly */
+
+.stat {
+  background: #3F84B1;
+  padding: 20px;
+  border-top: none;
+  border-bottom: none;
+  margin-bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.stat p {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.stat h4 {
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: white;
+  margin-top: 10px;
+  opacity: 0.9;
+  font-weight: 400;
+
+}
+
+.stat span.fa {
+  font-size: 2.5em;
+  color: white;
+  margin: 19px;
+}
+
+.stat .ht{
+     border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 20px 20px 20px 20px;
+    padding: 50px 0px 0px 0px;
+    position: relative;
+  
+    float: left;
+  margin-left: 250px;
+  padding: 50px;
+}
+.stat .res{
+     border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 20px 20px 20px 20px;
+    padding: 50px 0px 0px 0px;
+    position: relative;
+  
+    float: left;
+     padding: 50px;
+  margin-left: 30px;
+}
+
+.stat .lit{
+     border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 20px 20px 20px 20px;
+    padding: 50px 0px 0px 0px;
+    position: relative;
+    display: flex;
+    float: left;
+     padding: 50px;
+  margin-left: 30px;
+}
+
+
+@media (max-width: 992px) {
+  .stat p {
+    font-size: 40px !important;
+    line-height: 50px;
+  }
+
+  
+
+  .stat h4 {
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 737px) {
+  .stat p {
+    font-size: 35px !important;
+    line-height: 38px;
+    margin-top: 20px;
+  }
+
+  .stat h4 {
+    font-size: 17px !important;
+  }
+}
+
+@media (max-width: 415px) {
+  .stat span.fa {
+    font-size: 2em !important;
+  }
+}
+
+.des {
+  margin: 30px;
+  padding-left: 109px;
+
+}
+
+.des h1 {
+  color: rgba(234,234,24);
+}
+.des h1 span {
+  color: rgba(23,23,24);
+}
+@media (max-width: 992px){
+  .des{
+    margin: 20px;
+    padding-left: 30px;
+  }
+  .des .{
+    text-align: center;
+  }
+}
+@media (max-width: 415px){
+  .des{
+    margin: 10px;
+    padding-left: 0px;
+  }
+}
+.w3l-main-slider .img1 {
+  background: url(../images/saly_1.jpg) no-repeat center;
+  background-size: cover;
+  height: 400px;
+
+  position: relative;
+  z-index: 0;
+  display: grid;
+  align-items: center;
+}
+.w3l-main-slider .img2 {
+  background: url(../images/saly_3.jpg) no-repeat center;
+  background-size: cover;
+ 
+  height: 400px;
+  position: relative;
+  z-index: 0;
+  display: grid;
+  align-items: center;
+}
+
+.loc{
+background: #3F84B1;
+  padding: 20px;
+  border-top: none;
+  border-bottom: none;
+  margin-bottom: 0px;
+
+}
+.loc h1{
+  text-align: center;
+  color: lightgrey
+}
+.loc .desc {
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 20px 20px 20px 20px;
+    padding: 50px 0px 0px 0px;
+    position: relative;
+    display: flex;
+    float: left;
+     padding: 50px;
+  margin-left: 30px;
+
+}
+.loc p{
+  color : white;
+  line-height: 2em;
+}
+.csv{
+  margin: 20px;
+  padding: 20px;
+
+}
+
+.csv .ser, .de {
+  text-align: center;
+  color:   #3F84B1;
+}
+.csv .de {
+  padding: 50px;
+  display: none;
+}
+
+/*# saly */
+
+/* Investir Au senegal */
+.w3l-about-inves {
+  margin-top: 90px;
+  background: url(../images/gor_1.jpg) no-repeat center;
+  background-size: cover;
+  height: 300px;  
+  position: relative;
+  z-index: 0;
+  display: grid;
+  align-items: center;
+  padding: 1em 0;
+}
+.hur{
+    margin: 20px;
+    padding: 30px;
+
+   border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #fff;
+    background: lightgrey;
+     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+      transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    position: relative;
+    display: block;
+
+    
+    }
+
+.hur h1{
+  color: #3F84B1;
+}
+.hur  span {
+  font-size: 20px;
+  padding-right: 5px;
+}
+.hur h2 {
+  font-size: 22px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+
+.hur .dims{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 10px;
+     width: 100%;
+   text-align: left
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #fff;
+    background: #fff;
+     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+      transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+     position: relative;
+     display: block;
+
+    cursor: pointer;
+    
+}
+.hur .dims:hover{
+   
+
+   border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #fff;
+    background: #3F84B1;
+     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+      transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    position: relative;
+    
+}
+.hur .dims h2{
+  text-align: left;
+}
+.dp6{
+   padding: 30px 28px;
+   line-height: 2em;
+   font-family: sans-serif;
+  display: none;
+
+  background-color: white;
+  overflow: hidden;
+}
+
+.hur .uqve{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 10px;
+
+   border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #fff;
+    background: #fff;
+     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+      transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    position: relative;
+    display: block;
+
+    
+    
+}
+.hur .uqve:hover{
+   
+
+   border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #fff;
+    background: #3F84B1;
+     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+      transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    position: relative;
+    
+}
+.cmiv {
+  padding: 30px;
+  margin: 30px;
+
+
+}
+.cmiv h1{
+  text-align: center;
+  color: #3F84B1;
+  padding-bottom:30px;
+
+}
+
+.cmiv img{
+  margin: auto;
+  width: 380px;
+  height: 280px;
+  display: flex;
+
+}
+.cmiv h5{
+  
+  padding-top: 30px;
+  padding-bottom:30px;
+
+}
+.cmiv h6{
+  color: orange;
+  font-size: 23px;
+  padding-top: 30px;
+  padding-bottom:10px;
+
+}
+
+
+
+/*# Investir Au senegal */
+
+/* poles */
+
+
+#im1:hover {
+      transform-style: preserve-3d;
+    -webkit-transform: translateZ(.1px);
+    transform: translateZ(.1px)
+}
+
+/*# poles */
+
+
+/*# Espace recrutemet page */
+
+  .recru {
+  margin-top: 90px;
+  height: 300px;
+  background: url(../images/rec.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  display: grid;
+  align-items: center;
+  padding: 1em 0;
+}
+.recru .titre{
+  color: rgb(54,8,9);
+
+}
+
+.recher {
+ margin: 20px;
+    padding: 30px;
+
+   border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #fff;
+    background: lightgrey;
+}
+
+.recher #mcl {
+  width: 50%;
+  display: inline;
+
+}
+.recher #ldp {
+  width: 50%;
+  display: inline;
+  float: right;
+}
+.recher button{
+ position: relative;
+color: white;
+background: #c36;
+ width: 100%;
+ text-align: center;
+}
+.recher button:hover{
+
+color: white;
+background: #c36;
+ width: 100%;
+ text-align: center;
+ border-color: #c36;
+}
+
+.forma {
+
+margin-top: 20px;
+margin-bottom: 20px
+}
+.forma .frm {
+  border: 2px solid;
+  width: 100%;
+  margin: 0px;
+  background: lightgrey;
+  border-radius: 13px;
+}
+.forma .frm #forp{
+  display: inline;
+  float: left
+}
+
+.forma .frm #lie{
+  display: inline; 
+  text-align: center;
+  padding-left: 350px
+}
+
+.forma .frm #tpc{
+  display: inline;
+   float: right;
+}
+
+/*# fin page recrutement */
+/* Accueil|| nos Poles  */
+.petit-co{
+  margin-top: 90px;
+  background-image: url(../images/ptco.jpeg);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  height: 300px;
+  position: relative;
+   align-items: center;
+   z-index: 0;
+   display: grid;
+    padding: 1em 0;
+    margin-bottom: 40px;
+}
+.petit-co h2.titre{
+  font-size: 38px;
+  font-weight: 700;
+  color: white;
+} 
+.ptco img{
+
+  vertical-align: middle;
+    display: inline-block;    
+     height: auto;
+    max-width: 100%;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.petit-co::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #161B1D;
+  opacity: .7;
+}
+
+@media (max-width:991px) {
+  .petit-co {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width:640px) {
+  .petit-co h2.titre {
+    font-size: 34px;
+  }
+
+  .petit-co {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width:600px) {
+  .petit-co h2.titre {
+    font-size: 30px;
+  }
+}
+
+
+.petpo{
+  margin-bottom: 40px;
+}
+
+.petpo  img{
+
+  vertical-align: middle;
+    display: inline-block;    
+     height: auto;
+    max-width: 100%;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.petpo li{
+  font-size: 15px;
+  font-family: serif;
+}
+.prjen{
+  padding: 20px;
+  margin: 20px;
+}
+
+.prjen img{
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: auto;
+
+}
+.btnc{
+  margin: 30px;
+
+  position: relative;
+  
+}
+.btnc button{
+  width: 130px;
+  height: 40px;
+  background:rgba(21,233,234,322);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/*# fin Accueil|| nos Poles   */
+
+/* footer */
+.contact {
+  
+}
+
+/* fin page footer*/
+
+/* Nos Projets */
+.nos_pojets {
+  margin-top: 90px;
+  background: url(../images/proj.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  height: 300px;
+  z-index: 0;
+  display: grid;
+  align-items: center;
+  padding: 1em 0;
+}
+
+.nos_pojets h2 {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  color: white;
+}
+
+.nos_pojets h2.title {
+  font-size: 38px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.nos_pojets::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #161B1D;
+  opacity: .7;
+}
+
+.nos_pojets .breadcrumbs-custom-path li {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+ul.breadcrumbs-custom-path li a {
+  color: var(--primary-color);
+}
+
+.nos_pojets .breadcrumbs-custom-path li span.fa {
+  font-size: 12px;
+  vertical-align: 2px;
+}
+
+@media (max-width:991px) {
+  .nos_pojets {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width:640px) {
+  .nos_pojets h2.title {
+    font-size: 34px;
+  }
+
+  .nos_pojets {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width:600px) {
+  .nos_pojets h2.title {
+    font-size: 30px;
+  }
+}
+
+.proje {
+border: 2px solid yellow;
+width: 100%;
+height: 274px;
+
+}
+.proje img {
+background-repeat: no-repeat;
+background-size: cover;
+width: 360px;
+height: 270px;
+padding-left: 0px;
+}
+
+/* Nos Projets */
